@@ -11,4 +11,5 @@ def call():
     result =  xml.replace("\n","").replace("\t", " ") + "\n"
     return result
 
+# 실행결과
 print(call())
